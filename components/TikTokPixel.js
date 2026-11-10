@@ -3,7 +3,7 @@ import Script from "next/script";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef } from "react";
 
-const ID = process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID || "DBPL03RC77U6087O0ST0";
+const ID = process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID || "DBPL723C77U6087O0T20";
 
 export default function TikTokPixel() {
   const path = usePathname();
