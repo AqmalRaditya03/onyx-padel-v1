@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import MetaPixel from "../components/MetaPixel";
+import TikTokPixel from "../components/TikTokPixel";
 import { SITE } from "../lib/site";
 
 const interTight = Inter_Tight({ subsets: ["latin"], weight: ["300", "400", "500"], variable: "--font" });
@@ -41,6 +42,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <Footer />
         <MetaPixel />
+        <TikTokPixel />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </body>
     </html>
